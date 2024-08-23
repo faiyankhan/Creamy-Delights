@@ -10,3 +10,16 @@
     align-items: center;
     justify-content: space-around; 
 }
+
+.nav-logo{
+    height: 90px;
+}
+
+.nav-logo-heading{
+    display: flex;
+    align-items: center; 
+}
+
+.nav{
+    margin: 0 20px;
+}
