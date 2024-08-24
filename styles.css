@@ -28,3 +28,12 @@ li{
     list-style: none;
     display: inline-block;
 }
+
+.container{
+    display:flex;
+    justify-content: space-evenly;
+    margin-top: 70px;
+    margin-left: 60px;
+    text-align: start;
+    font-size:25px;
+}
