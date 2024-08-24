@@ -9,6 +9,7 @@
     display: flex;
     align-items: center;
     justify-content: space-around; 
+    background-color: #ff80aa;
 }
 
 .nav-logo{
@@ -36,4 +37,9 @@ li{
     margin-left: 60px;
     text-align: start;
     font-size:25px;
+}
+
+.main-img{
+    height: 460px;
+    width: 460px;
 }
