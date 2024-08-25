@@ -87,3 +87,10 @@ li, a{
     transition: 0.8s;
     background-color: #ff6666;
 }
+
+.flavours{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    text-align: center;
+
+}
