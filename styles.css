@@ -33,13 +33,33 @@ li{
 .container{
     display:flex;
     justify-content: space-evenly;
-    margin-top: 70px;
-    margin-left: 60px;
+    margin-top: 50px;
+    margin-left: 2px;
     text-align: start;
     font-size:25px;
 }
 
 .main-img{
+    margin-bottom: -50px;
     height: 460px;
     width: 460px;
+}
+
+.text-1{
+    margin-top: 30px;
+}
+
+.text-2{
+    margin-top: 15px;
+    color: red;
+}
+
+.text-3{
+    margin-top: 40px;
+    font-size: 30px;
+}
+
+.text-4{
+    margin-top: 10px;
+    font-size: 30px;
 }
