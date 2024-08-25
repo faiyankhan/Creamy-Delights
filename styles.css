@@ -83,7 +83,7 @@ li, a{
 }
 
 .btn:hover{
-    color:white;
-    transition: 0.5s;
+    color:black;
+    transition: 0.8s;
     background-color: #ff6666;
 }
