@@ -9,7 +9,7 @@
     display: flex;
     align-items: center;
     justify-content: space-around; 
-    background-color: #ff80aa;
+    background-color: #ff6666;
 }
 
 .nav-logo{
@@ -19,6 +19,7 @@
 .nav-logo-heading{
     display: flex;
     align-items: center; 
+    color:black;
 }
 
 .nav{
@@ -30,6 +31,12 @@ li{
     display: inline-block;
 }
 
+li, a{
+    color: black;
+    font-size: 18px;
+    font-weight: 600;
+}
+
 .container{
     display:flex;
     justify-content: space-evenly;
@@ -37,6 +44,7 @@ li{
     margin-left: 2px;
     text-align: start;
     font-size:25px;
+  
 }
 
 .main-img{
@@ -50,16 +58,32 @@ li{
 }
 
 .text-2{
-    margin-top: 15px;
-    color: red;
+    margin-top: 10px;
+    color:#ff3333;
 }
 
 .text-3{
-    margin-top: 40px;
+    margin-top: 30px;
     font-size: 30px;
 }
 
 .text-4{
     margin-top: 10px;
     font-size: 30px;
+}
+
+.btn{
+    padding: 15px;
+    border-radius: 40px;
+    width: 200px;
+    font-weight: 600;
+    color: white;
+    background-color:#ff3333;
+    border: none;
+}
+
+.btn:hover{
+    color:white;
+    transition: 0.5s;
+    background-color: #ff6666;
 }
