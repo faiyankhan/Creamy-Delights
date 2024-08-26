@@ -89,51 +89,72 @@ a {
     background-color: #ff6666;
 }
 
+/* Container-2 */
 
 .container-2 {
     display: flex;
-    gap: 20px;
+    gap: 40px;
     padding: 40px;
 }
 
 .flavours {
-    margin-top: 100px;
     text-align: center;
+    margin-top: 90px;
+}
+
+.flavours h1 {
+    font-size: 2em;
+    color:#ff3333;
+}
+
+.flavours p {
+    color: #555;
+    font-size: 1.2em;
+    margin-top: 15px;
 }
 
 .cards {
     background-color: #fff;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    height: 330px;
     width: 250px;
     padding: 20px;
     text-align: center;
 }
 
 .cards img {
+    height: 160px;
     width: 100%;
     border-radius: 10px;
 }
 
 .cards h3 {
-    margin-top: 15px;
+    margin-top: 25px;
     color: #333;
 }
 
 .cards p {
     color: #777;
     font-size: 14px;
-    margin: 10px 0;
+    margin: 15px 0;
+}
+
+.price {
+    font-size: 18px;
+    color: #ff7f50;
+    font-weight: bold;
+    margin: 12px 0;
 }
 
 .cards button {
-    background-color: #ff7f50;
+    background-color: #ff3333;
     color: #fff;
     border: none;
     border-radius: 5px;
     padding: 10px 15px;
     cursor: pointer;
-    transition: background-color 0.3s ease;
+    transition: 0.3s ease;
 }
 
 .cards button:hover {
