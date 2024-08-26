@@ -19,7 +19,7 @@
 .nav-logo-heading {
     display: flex;
     align-items: center;
-    color: black;
+    color: white;
 }
 
 .nav {
@@ -31,11 +31,16 @@ li {
     display: inline-block;
 }
 
-li,
 a {
-    color: black;
+    color: white;
     font-size: 18px;
     font-weight: 600;
+}
+
+a:hover{
+    padding: 5px;
+    color:black;
+    transition: 0.5s;
 }
 
 .container-1 {
@@ -45,7 +50,6 @@ a {
     margin-left: 2px;
     text-align: start;
     font-size: 25px;
-
 }
 
 .main-img {
