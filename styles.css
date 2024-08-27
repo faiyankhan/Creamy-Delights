@@ -171,7 +171,18 @@ a:hover{
     background-color: #ffffff;
     padding: 30px;
     border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    max-width: 600px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
     width: 100%;
+}
+
+.suggestion-box h2 {
+    color: #333;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.suggestion-box p {
+    color: #666;
+    margin-bottom: 20px;
+    text-align: center;
 }
