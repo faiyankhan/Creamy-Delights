@@ -37,9 +37,12 @@ a {
     font-weight: 600;
 }
 
-a:hover{
+a:hover {
     padding: 5px;
-    color:black;
+    color: black;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
     transition: 0.5s;
 }
 
@@ -89,8 +92,9 @@ a:hover{
 
 .btn:hover {
     color: black;
-    transition: 0.8s;
     background-color: #ff6666;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: 0.8s;
 }
 
 /* Container-2 */
@@ -121,7 +125,7 @@ a:hover{
     background-color: #fff;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    height: 330px;
+    height: 340px;
     width: 250px;
     padding: 20px;
     text-align: center;
@@ -159,30 +163,65 @@ a:hover{
     padding: 10px 15px;
     cursor: pointer;
     transition: 0.3s ease;
+    font-size: 13px;
 }
 
 .cards button:hover {
-    background-color: #ff6347;
+    color: black;
+    background-color: #ff6666;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: 0.8s;
 }
 
 /* Suggestion Box */
 
 .suggestion-box {
-    background-color: #ffffff;
-    padding: 30px;
+    background-color: #fff;
+    padding: 20px;
+    margin: 0 auto;
     border-radius: 10px;
-    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
-    width: 100%;
-}
-
-.suggestion-box h2 {
-    color: #333;
-    margin-bottom: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
     text-align: center;
 }
 
-.suggestion-box p {
-    color: #666;
+.heading-1{
+    margin-bottom: 10px;
+    color: #ff3333;
+}
+
+.heading-2{
+    margin-bottom: 10px;
+    color: #555;
+}
+.form label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form input,
+.form textarea {
+    width: 400px;
+    padding: 10px;
     margin-bottom: 20px;
-    text-align: center;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+.form button {
+    background-color: #ff3333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.form button:hover {
+    color: black;
+    background-color: #ff6666;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: 0.8s;
 }
