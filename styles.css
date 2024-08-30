@@ -167,6 +167,7 @@ a:hover {
     cursor: pointer;
     transition: 0.3s ease;
     font-size: 13px;
+    width: 240px;
 }
 
 .cards button:hover {
@@ -216,10 +217,11 @@ a:hover {
     background-color: #ff3333;
     color: #fff;
     padding: 10px 20px;
+    width: 240px;
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    transition: background-color 0.3s ease;
+    transition: 0.5s ;
 }
 
 .form button:hover {
