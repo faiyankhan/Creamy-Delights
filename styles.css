@@ -100,7 +100,10 @@ a:hover {
 /* Container-2 */
 
 .container-2 {
-    display: flex;
+    display:flex;
+    flex-direction:row;
+    justify-content:space-around;
+    flex-wrap: wrap;
     gap: 40px;
     padding: 40px;
 }
@@ -121,7 +124,7 @@ a:hover {
     margin-top: 15px;
 }
 
-.cards {
+.cards{
     background-color: #fff;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
