@@ -31,6 +31,12 @@ li {
     display: inline-block;
 }
 
+.options{
+    height: 31px;
+    margin: 8px;
+    cursor: pointer;
+}
+
 a {
     color: white;
     font-size: 18px;
@@ -39,7 +45,6 @@ a {
 
 a:hover {
     padding: 7px;
-    color: black;
     background-color: #ff3333;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
     border-radius: 20px;
