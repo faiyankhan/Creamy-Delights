@@ -32,9 +32,17 @@ li {
 }
 
 .options{
-    height: 31px;
+    height: 28px;
     margin: 8px;
     cursor: pointer;
+}
+
+.options:hover {
+    padding: 7px;
+    background-color: #ff3333;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    transition: 0.5s;
 }
 
 a {
@@ -44,7 +52,7 @@ a {
 }
 
 a:hover {
-    padding: 7px;
+    padding: 10px;
     background-color: #ff3333;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
     border-radius: 20px;
