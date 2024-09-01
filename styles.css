@@ -33,26 +33,18 @@ li {
 
 .options{
     height: 28px;
-    margin: 8px;
+    padding: 0 20px;
     cursor: pointer;
-}
-
-.options:hover {
-    padding: 7px;
-    background-color: #ff3333;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
-    border-radius: 10px;
-    transition: 0.5s;
 }
 
 a {
     color: white;
     font-size: 18px;
     font-weight: 600;
+    padding: 10px;
 }
 
 a:hover {
-    padding: 10px;
     background-color: #ff3333;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
     border-radius: 20px;
