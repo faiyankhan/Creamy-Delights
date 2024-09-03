@@ -275,3 +275,15 @@ a:hover {
     padding: 5px;
     cursor: pointer;
 }
+
+#input-box{
+    width: 240px;
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    margin-left: 15px;
+}
+
+#byn{
+    
+}
