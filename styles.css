@@ -269,3 +269,9 @@ a:hover {
 .item{
     margin: 9px;
 }
+
+.social-icon{
+    height: 30px;
+    padding: 5px;
+    cursor: pointer;
+}
