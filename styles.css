@@ -5,6 +5,8 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+/* Navbar Section */
+
 .navbar {
     display: flex;
     align-items: center;
@@ -50,6 +52,8 @@ a:hover {
     border-radius: 20px;
     transition: 0.5s;
 }
+
+/* Container-1 Section */
 
 .container-1 {
     display: flex;
@@ -129,6 +133,8 @@ a:hover {
     font-size: 20px;
     margin-top: 15px;
 }
+
+/* Ice Cream Cards */
 
 .cards {
     background-color: #fff;
