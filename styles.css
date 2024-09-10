@@ -6,7 +6,6 @@
 }
 
 /* Navbar Section */
-
 .navbar {
     display: flex;
     align-items: center;
@@ -114,6 +113,7 @@ a:hover {
     right: 20px;
     bottom: 20px;
 }
+
 /* Container-2 */
 
 .container-2 {
