@@ -107,6 +107,13 @@ a:hover {
     cursor: pointer;
 }
 
+.Go-to-top{
+    height: 45px;
+    width: 45px;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+}
 /* Container-2 */
 
 .container-2 {
