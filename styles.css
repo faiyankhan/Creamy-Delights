@@ -357,4 +357,26 @@ a:hover {
         height: 24px;
     }
 
+    /* Container-1: Adjust text and image */
+    .container-1 {
+        flex-direction: column;
+        text-align: center;
+        margin: 20px 0;
+    }
+
+    .main-img {
+        width: 100%;
+        height: auto;
+    }
+
+    .text-1, .text-2, .text-3, .text-4 {
+        font-size: 18px;
+    }
+
+    .btn {
+        width: 150px;
+        padding: 10px;
+    }
+
+
 }
