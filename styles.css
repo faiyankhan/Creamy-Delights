@@ -332,3 +332,29 @@ a:hover {
     color: #fff;
     background-color: #ff6666;
 }
+
+/* For mobile devices (up to 600px) */
+@media screen and (max-width: 600px) {
+    /* Navbar: Stack items vertically */
+    .navbar {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .nav-logo {
+        height: 60px;
+    }
+
+    .nav-logo-heading h1 {
+        font-size: 24px;
+    }
+
+    .navbar ul {
+        padding: 0;
+    }
+
+    .options {
+        height: 24px;
+    }
+
+}
