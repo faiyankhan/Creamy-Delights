@@ -107,7 +107,7 @@ a:hover {
     cursor: pointer;
 }
 
-.Go-to-top{
+.Go-to-top {
     height: 45px;
     width: 45px;
     position: fixed;
@@ -117,7 +117,7 @@ a:hover {
 
 .Go-to-top:hover {
     transform: scale(1.1);
-    transition: 0.3s ;
+    transition: 0.3s;
 }
 
 /* Container-2 */
@@ -335,6 +335,7 @@ a:hover {
 
 /* For mobile devices (up to 600px) */
 @media screen and (max-width: 600px) {
+
     /* Navbar: Stack items vertically */
     .navbar {
         flex-direction: column;
@@ -369,7 +370,10 @@ a:hover {
         height: auto;
     }
 
-    .text-1, .text-2, .text-3, .text-4 {
+    .text-1,
+    .text-2,
+    .text-3,
+    .text-4 {
         font-size: 18px;
     }
 
@@ -387,6 +391,21 @@ a:hover {
     .cards {
         width: 90%;
         margin: 20px 0;
+    }
+
+    /* Footer: Stack content vertically */
+    .footer {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .footer-content {
+        margin-bottom: 20px;
+    }
+
+    .footer-icon,
+    .social-icon {
+        height: 25px;
     }
 
 
