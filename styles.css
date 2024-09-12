@@ -407,7 +407,6 @@ a:hover {
     .social-icon {
         height: 25px;
     }
-
 }
 
 /* For tablets (601px - 1024px) */
@@ -425,4 +424,43 @@ a:hover {
         font-size: 28px;
     }
 
+    /* Container-1: Adjust spacing */
+    .container-1 {
+        flex-direction: row;
+        justify-content: center;
+        margin: 40px 0;
+    }
+
+    .main-img {
+        width: 80%;
+        height: auto;
+    }
+
+    .btn {
+        width: 180px;
+    }
+
+    /* Ice Cream Cards: Adjust card layout */
+    .container-2 {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .cards {
+        width: 45%;
+    }
+
+    /* Footer: Align content for tablets */
+    .footer {
+        flex-wrap: wrap;
+    }
+
+    .footer-content {
+        width: 45%;
+        text-align: left;
+    }
+
+    .social-icon {
+        height: 28px;
+    }
 }
