@@ -43,6 +43,7 @@ a {
     font-size: 18px;
     font-weight: 600;
     padding: 10px;
+    cursor: pointer;
 }
 
 a:hover {
@@ -112,6 +113,11 @@ a:hover {
     position: fixed;
     right: 20px;
     bottom: 20px;
+}
+
+.Go-to-top:hover {
+    transform: scale(1.1);
+    transition: 0.3s ;
 }
 
 /* Container-2 */
@@ -252,9 +258,12 @@ a:hover {
     transition: 0.8s;
 }
 
+/* Footer */
+
 .footer {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     height: 240px;
     padding: 25px 40px;
     color: #fff;
