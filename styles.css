@@ -471,4 +471,26 @@ a:hover {
     .navbar {
         justify-content: space-around;
     }
+
+    .container-2 {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .cards {
+        width: 30%;
+    }
+
+    .footer {
+        justify-content: space-between;
+    }
+
+    .footer-content {
+        width: 20%;
+    }
+
+    .social-icon {
+        height: 30px;
+    }
 } 
