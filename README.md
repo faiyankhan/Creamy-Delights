@@ -5,9 +5,7 @@ Welcome to Creamy Delights, an online platform crafted especially for ice cream 
 
 ## Home Page Preview:
 
-<img src="./images/shop-ss.png" height=300px><br>
-
-<img src="./images/cards-ss.png" height=300px><br><br>
+<img src="./images/shop-ss.png" height=300px><br><br>
 
 The Creamy Delights website is designed to showcase a wide selection of ice cream flavors, allow customers to order online, and provide feedback for further improvements.With a user-friendly interface and vibrant imagery, visitors can easily browse through our irresistible flavors, each made from the finest ingredients. Whether you're craving classic favorites like vanilla and chocolate, or want to discover new and exciting creations, our platform makes it effortless to explore the full range of our delectable ice creams.
 <br><br>
